@@ -1,0 +1,11 @@
+[colors]
+red = "FF0000"
+green = "00FF00"
+blue = "0000FF"
+cyan = "00FFFF"
+magenta = "FF00FF"
+yellow = "FFFF00"
+white = "FFFFFF"
+
+[patterns]
+rainbow = ["red", "green", "blue"]

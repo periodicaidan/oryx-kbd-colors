@@ -1,0 +1,8 @@
+name = "kbdcolor"
+uuid = "a2928606-40bd-4ec1-8b37-b5d42f374e80"
+authors = ["Aidan T. Manning <periodicaidan@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+TOML = "191fdcea-f9f2-43e0-b922-d33f71e2abc3"
