@@ -37,7 +37,7 @@ by root, you must `sudo` in order to use these utilities. Here's how to configur
 1. Inside `SUDO_SCRIPTS`, create a symlink to `kbdcolor.jl` called `kbdcolor`.
 1. Open your `/etc/sudoers` file using `sudo visudo`.
 1. Add the path to your Julia interpreter to the `secure_path` (mine is in `~/julia-1.3.1/bin`).
-1. Add the directive `NOPASSWD: SUDO_SCRIPTS/kbdcolor` to the `sudo` group
+1. Add the directive `NOPASSWD: <SUDO_SCRIPTS>/kbdcolor` to the `sudo` group
 
 After making the changes, your `/etc/sudoers` file should look like:
 
@@ -55,7 +55,7 @@ Cmnd_Alias SAFE = <SUDO_SCRIPTS>/kbdcolor
 
 ## Running the Utility
 
-To make sure everything's working right, turn on the keyboard backlight (`Fn + Numpad *`), and on the command line, run `sudo kbdcolor rainbow`. This should change the keyboard color to a rainbow pattern (red-green-blue from left to righ). 
+To make sure everything's working right, turn on the keyboard backlight (`Fn + Numpad *`), and on the command line, run `sudo kbdcolor rainbow`. This should change the keyboard color to a rainbow pattern (red-green-blue from left to right). 
 
 ### Arguments
 
